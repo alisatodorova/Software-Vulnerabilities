@@ -1,0 +1,837 @@
+Processing file: hexdump
+('Found', 1, 'executable sections:')
+('Name:', u'.text')
+0x
+('Address:', '0x4006b0')
+('Hex Stream:', '31ed4989d15e4889e24883e4f0505449c7c0b009400048c7c14009400048c7c7fd084000ff1516092000f40f1f440000f3c3662e0f1f8400000000000f1f400055b878106000483d781060004889e57417b8000000004885c0740d5dbf78106000ffe00f1f4400005dc3660f1f440000be78106000554881ee781060004889e548c1fe034889f048c1e83f4801c648d1fe7415b8000000004885c0740b5dbf78106000ffe00f1f005dc3660f1f440000803d11092000007517554889e5e87effffffc605ff082000015dc30f1f440000f3c30f1f4000662e0f1f840000000000554889e55deb89554889e54881ec200400004889bde8fbffff48c745f00000000048c745e80000000048c745e00000000048c745f800000000488b85e8fbffff488d35f10100004889c7e8c1feffff488945f0488b45f0ba02000000be000000004889c7e897feffff488b45f04889c7e85bfeffff488945e0488b45f0ba00000000be000000004889c7e871feffff488b45e04889c7e855feffff488945e8488b55f0488b75e0488b45e84889d1ba010000004889c7e8e5fdffff488b45f04889c7e8e9fdffff488b55e0488b4de8488d85f0fbffff4889ce4889c7e8fffdffff48c745f800000000eb67488d95f0fbffff488b45f84801d00fb6000fbec089c6488d3d33010000b800000000e8aefdffff488b45f84883c00183e0074885c07511488d3d18010000b800000000e88dfdffff488b45f84883c00183e00f4885c0750abf0a000000e833fdffff488345f80148817df8e7030000768fbf0a000000e81afdffffb800000000c9c3554889e54883ec10897dfc488975f0837dfc027413488d3dbf000000e802fdffffb8ffffffffeb18488b45f04883c008488b004889c7e85ffeffffb800000000c9c390415741564989d7415541544c8d25be04200055488d2dbe042000534189fd4989f64c29e54883ec0848c1fd03e86ffcffff4885ed742031db0f1f8400000000004c89fa4c89f64489ef41ff14dc4883c3014839dd75ea4883c4085b5d415c415d415e415fc390662e0f1f840000000000f3c3')
+Gadgets:
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+Gadget: xor ebp, ebp
+Gadget: mov r9, rdx
+Gadget: pop rsi
+Gadget: mov rdx, rsp
+Gadget: and rsp, 0xfffffffffffffff0
+Gadget: push rax
+Gadget: push rsp
+Gadget: mov r8, 0x4009b0
+Gadget: mov rcx, 0x400940
+Gadget: mov rdi, 0x4008fd
+Gadget: call qword ptr [rip + 0x200916]
+Gadget: hlt 
+Gadget: nop dword ptr [rax + rax]
+Gadget: ret 
+()
+('Number of gadgets of length 1:', 9)
+('Number of gadgets of length 2:', 4)
+('Number of gadgets of length 3:', 5)
